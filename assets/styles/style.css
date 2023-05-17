@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgba(245, 126, 239, 0.648);
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+h1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: rgb(17, 52, 96);
+    font-size: 4rem;
+}
+header nav{
+    height: 5rem;
+    width: 100vw;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header div{
+    background-color: rgb(148, 153, 148);
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    height: 5rem;
+    width: 100vw;
+   
+}
+a{
+    color: rgb(17, 52, 96);
+    padding: 1rem;
+    border: 2px solid rgb(208, 42, 142);
+    border-radius:1.5rem;
+    padding:0.2;
+    text-decoration: none;
+}
+.logo{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+}
+h2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: rgb(17, 52, 96);
+    font-size: 2rem;
+}
+.fotoprincipal img{
+    margin-top: 2rem;
+    width: 70rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+.mainhome{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.img2home{
+    width: 20rem;
+    height: 25rem;
+    display:flex;
+    border-radius: 1rem;
+}
+.parrafohome{
+    display:flex;
+    font-size: 1.2rem;
+    color:  rgb(17, 52, 96);
+    margin-top: 10rem;
+
+}
+.divhome{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.section-cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.imagencontacto{
+    width: 40rem;
+    height: 30rem;
+    border-radius: 3rem;
+}
+.divimagencon{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email{
+    color:  rgb(17, 52, 96);
+    font-size: 2rem;
+}
+.phone{
+    color:  rgb(17, 52, 96);
+    font-size: 2rem;
+}
+.emailphone{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+    
+}
+.parrafocon{
+    color:  rgb(17, 52, 96);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+/* aboutUs */
+
+.sectionabout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.sectionabout div{
+    display:flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.sectionabout img{
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+#img2about{
+    margin-left: 2.5rem;
+}
+.sectionabout p{
+    display: flex;
+    font-size: 1.2rem;
+    
+}
+.parrafoabout{
+    color:  rgb(17, 52, 96);
+}
+/* footer */
+footer{
+    padding: 2rem;
+    background-color: grey;
+    border: 0.25rem solid black;
+    text-align: center;
+    position: absolute;
+    top:80rem;
+    width:100vw;
+}
+footer p{
+    color:  rgb(17, 52, 96);
+    font-size: x-large;
+}
+/* information y benefitsTips */
+.information-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.information-section p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+.section-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+table {
+    border: 2px solid rgb(17, 52, 96);;
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+
+th, td {
+    padding: 2rem;
+    border: 2px solid rgb(17, 52, 96);;
+}
+
+.benefits-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#benefits{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: rgb(17, 52, 96);;;
+}
+
+.benefits-section div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.benefits-section img {
+    height: 12rem;
+    width: 12rem;
+}
+.img-tips{
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+ol {
+    list-style: none;
+}
+
+ul {
+    margin-top: 2rem;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.list2 {
+    margin-right: -21.5rem;
+}
+li{
+    color: rgb(17, 52, 96);
+}
